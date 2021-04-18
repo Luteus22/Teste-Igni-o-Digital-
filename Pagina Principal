@@ -1,0 +1,422 @@
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+        <style>
+            .rightcolumn {
+                float: left;
+                width: 15%;
+                background-color: white;
+
+            }
+            .card {
+                background-color: white;
+                padding: 1px;
+                margin-top: 1px;
+                margin-bottom: 57px;
+            }
+            body {
+                background: #f1f1f1;
+            }
+            .frase{
+                color:orange;
+                font-family: Tahoma, Verdana, sans-serif;
+            }
+
+            div.stars {
+                width: 270px;
+                display: inline-block
+            }
+
+            .mt-200 {
+                margin-top: 200px
+            }
+
+            input.star {
+                display: none
+            }
+
+            label.star {
+                float: right;
+                padding: 10px;
+                font-size: 36px;
+                color: #4A148C;
+                transition: all .2s
+            }
+
+            input.star:checked~label.star:before {
+                content: '\f005';
+                color: #FD4;
+                transition: all .25s
+            }
+
+            input.star-5:checked~label.star:before {
+                color: #FE7;
+                text-shadow: 0 0 20px #952
+            }
+
+            input.star-1:checked~label.star:before {
+                color: #F62
+            }
+
+            label.star:hover {
+                transform: rotate(-15deg) scale(1.3)
+            }
+
+            label.star:before {
+                content: '\f006';
+                font-family: FontAwesome
+            }
+
+            .absolute {
+                position: absolute;
+                top: 100px;
+                right: 0;
+                font-family: Tahoma, Verdana, sans-serif;
+            }
+            .fakeimg {
+                background-color: #aaa;
+                width: 100%;
+                padding: 80px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+
+        <div class="rightcolumn">
+            <div class="card">
+                <h3 class="frase"><img src="Ignicao.png" width="50" height="50"> Ignição Digital</h3>
+                <h1></h1>
+                <h1></h1>
+                <h1></h1>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+                        <i class="fas fa-home"></i>
+                        Ária do cliente
+                    </button>
+                </div>
+                <h1></h1>
+                <h1></h1>
+                <h1></h1>
+                <h4>Apps</h4>
+                <h1>
+                    <button type="button" class="btn">
+                        <i class='far fa-envelope' style="font-size:24px"></i>
+                        Email
+                    </button>
+                </h1>
+                <h1>
+                    <button type="button" class="btn">
+                        <i class='far fa-comment-alt' style='font-size:24px'></i>
+                        Conversar
+                    </button>
+                </h1>
+                <h1>
+                    <button type="button" class="btn">
+                        <i class='far fa-check-square' style='font-size:24px'></i>
+                        Todo
+                    </button>
+                </h1>
+                <h1>
+                    <button type="button" class="btn">
+                        <i class='far fa-calendar-alt' style='font-size:24px'></i>
+                        Calendário
+                    </button>
+                </h1>
+
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class='far fa-check-square' style='font-size:24px'></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class='far fa-comment-alt' style='font-size:24px'></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class='far fa-envelope' style="font-size:24px"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class='far fa-calendar-alt' style='font-size:24px'></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#"><i class="far fa-star" style='font-size:24px'></i></a>
+                </li>
+            </ul>
+
+            <input type="text" class="form-control">
+            <ul class="navbar-nav">
+                <li class="nav-item">   
+                    <a class="nav-link" href="#"><i class="fas fa-bell" style='font-size:24px'></i></a>
+                </li>
+                <li class="nav-item"> 
+                    <a class="nav-link" href="#"><i class="fas fa-search" style='font-size:24px'></i></a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <h1></h1>
+        <h2 style="font-family: Tahoma, Verdana, sans-serif">Resultado     | <i class="fas fa-home"></i> >> Cursos </h2>  
+        <h4 style="font-family: Tahoma, Verdana, sans-serif">Filtros</h4>
+        <h2 class="absolute">200 Resultados Encontrados</h2>
+
+
+        <div class="rightcolumn">
+            <div class="card">
+                <h4 style="font-family: Tahoma, Verdana, sans-serif">Preços</h4>
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="customRadio" name="example1">
+                    <label class="custom-control-label" for="customRadio" style="color:rgb(120, 120, 120)"> R$10</label>
+                </div> 
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="customRadio" name="example1">
+                    <label class="custom-control-label" for="customRadio" style="color:rgb(120, 120, 120)"> R$10-$100</label>
+                </div> 
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="customRadio" name="example1">
+                    <label class="custom-control-label" for="customRadio" style="color:rgb(120, 120, 120)"> R$10-$500</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="customRadio" name="example1">
+                    <label class="custom-control-label" for="customRadio" style="color:rgb(120, 120, 120)"> R$500</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input type="radio" class="custom-control-input" id="customRadio" name="example1">
+                    <label class="custom-control-label" for="customRadio" style="color:rgb(120, 120, 120)"> Todos</label>
+                </div>
+                <hr/>
+                <label for="customRange1" class="form-label" style="font-family: Tahoma, Verdana, sans-serif">Valores</label>
+                <input type="range" class="form-range" id="customRange1">
+                <hr/>
+                <h4 style="font-family: Tahoma, Verdana, sans-serif">Categorias</h4>
+                <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                    <label class="custom-control-label" for="customCheck" style="color:rgb(120, 120, 120)">Érico Rocha 1920</label>
+                </div>
+                <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                    <label class="custom-control-label" for="customCheck" style="color:rgb(120, 120, 120)">Desafio 6 em 7 1820</label>
+                </div>
+                <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                    <label class="custom-control-label" for="customCheck" style="color:rgb(120, 120, 120)">Fórmula de lançamento 462</label>
+                </div>
+                <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                    <label class="custom-control-label" for="customCheck" style="color:rgb(120, 120, 120)">KlickPages 6556</label>
+                </div> 
+                <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+                    <label class="custom-control-label" for="customCheck" style="color:rgb(120, 120, 120)">Audios 120</label>
+                </div>
+                <hr/>
+                <h4 style="font-family: Tahoma, Verdana, sans-serif">Avaliação</h4>
+                <div class="stars">
+                    <form action=""> 
+                        <input class="star star-5" id="star-5" type="radio" name="star" /> 
+                        <label class="star star-5" for="star-5"> </label> 
+                        <input class="star star-4" id="star-4" type="radio" name="star" /> 
+                        <label class="star star-4" for="star-4"></label> 
+                        <input class="star star-3" id="star-3" type="radio" name="star" /> 
+                        <label class="star star-3" for="star-3"></label> 
+                        <input class="star star-2" id="star-2" type="radio" name="star" /> 
+                        <label class="star star-2" for="star-2"></label> 
+                        <input class="star star-1" id="star-1" type="radio" name="star" /> 
+                        <label class="star star-1" for="star-1"></label> 
+                    </form>
+                </div>
+
+                <div class="stars">
+                    <form action=""> 
+                        <input class="star star-5" id="star-5" type="radio" name="star" /> 
+                        <label class="star star-5" for="star-5"> </label> 
+                        <input class="star star-4" id="star-4" type="radio" name="star" /> 
+                        <label class="star star-4" for="star-4"></label> 
+                        <input class="star star-3" id="star-3" type="radio" name="star" /> 
+                        <label class="star star-3" for="star-3"></label> 
+                        <input class="star star-2" id="star-2" type="radio" name="star" /> 
+                        <label class="star star-2" for="star-2"></label> 
+                        <input class="star star-1" id="star-1" type="radio" name="star" /> 
+                        <label class="star star-1" for="star-1"></label> 
+                    </form>
+                </div>
+
+                <div class="stars">
+                    <form action=""> 
+                        <input class="star star-5" id="star-5" type="radio" name="star" /> 
+                        <label class="star star-5" for="star-5"> </label> 
+                        <input class="star star-4" id="star-4" type="radio" name="star" /> 
+                        <label class="star star-4" for="star-4"></label> 
+                        <input class="star star-3" id="star-3" type="radio" name="star" /> 
+                        <label class="star star-3" for="star-3"></label> 
+                        <input class="star star-2" id="star-2" type="radio" name="star" /> 
+                        <label class="star star-2" for="star-2"></label> 
+                        <input class="star star-1" id="star-1" type="radio" name="star" /> 
+                        <label class="star star-1" for="star-1"></label> 
+                    </form>
+                </div>
+                <button type="button" class="btn btn-secondary">Limpar Filtros</button>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <input type="text" class="form-control" placeholder="Buscar">
+            <ul class="navbar-nav">
+                <li class="nav-item"> 
+                    <a class="nav-link" href="#"><i class="fas fa-search" style='font-size:24px'></i></a>
+                </li>
+            </ul>
+        </nav>
+
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <div class="fakeimg" style="width:300px">Image</div>
+                </li>
+                <li class="nav-item">
+                    <h4 style="font-family: Tahoma, Verdana, sans-serif">Fórmula de Lançamento</h4>
+                    <h6 style="font-family: Tahoma, Verdana, sans-serif">Por Érico Rocha</h6>
+                    <h6 style="font-family: Tahoma, Verdana, sans-serif">Lorem Ipsum is simply dummy text of the printing and industry.</h6>
+                </li>
+                <div class="col-md-12 bg-light text-right">
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-secondary">3,4 <i class="far fa-star" style='font-size:15px'></i></button>
+                        <br/>
+                        <h4 style="font-family: Tahoma, Verdana, sans-serif">R$2500</h4>
+                        <br/>
+                        <button type="button" class="btn btn-light"><i class="far fa-heart" style='font-size:24px'></i> Amei</button>
+                        <br/>
+                        <button type="button" class="btn btn-secondary"><i class="fas fa-shopping-bag" style='font-size:24px'></i> Comprar</button>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <div class="fakeimg" style="width:300px">Image</div>
+                </li>
+                <li class="nav-item">
+                    <h4 style="font-family: Tahoma, Verdana, sans-serif">Fórmula de Lançamento</h4>
+                    <h6 style="font-family: Tahoma, Verdana, sans-serif">Por Érico Rocha</h6>
+                    <h6 style="font-family: Tahoma, Verdana, sans-serif">Lorem Ipsum is simply dummy text of the printing and industry.</h6>
+                </li>
+                <div class="col-md-12 bg-light text-right">
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-secondary">3,4 <i class="far fa-star" style='font-size:15px'></i></button>
+                        <br/>
+                        <h4 style="font-family: Tahoma, Verdana, sans-serif">R$2500</h4>
+                        <br/>
+                        <button type="button" class="btn btn-light"><i class="far fa-heart" style='font-size:24px'></i> Amei</button>
+                        <br/>
+                        <button type="button" class="btn btn-secondary"><i class="fas fa-shopping-bag" style='font-size:24px'></i> Comprar</button>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <div class="fakeimg" style="width:300px">Image</div>
+                </li>
+                <li class="nav-item">
+                    <h4 style="font-family: Tahoma, Verdana, sans-serif">Fórmula de Lançamento</h4>
+                    <h6 style="font-family: Tahoma, Verdana, sans-serif">Por Érico Rocha</h6>
+                    <h6 style="font-family: Tahoma, Verdana, sans-serif">Lorem Ipsum is simply dummy text of the printing and industry.</h6>
+                </li>
+                <div class="col-md-12 bg-light text-right">
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-secondary">3,4 <i class="far fa-star" style='font-size:15px'></i></button>
+                        <br/>
+                        <h4 style="font-family: Tahoma, Verdana, sans-serif">R$2500</h4>
+                        <br/>
+                        <button type="button" class="btn btn-light"><i class="far fa-heart" style='font-size:24px'></i> Amei</button>
+                        <br/>
+                        <button type="button" class="btn btn-secondary"><i class="fas fa-shopping-bag" style='font-size:24px'></i> Comprar</button>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <div class="fakeimg" style="width:300px">Image</div>
+                </li>
+                <li class="nav-item">
+                    <h4 style="font-family: Tahoma, Verdana, sans-serif">Fórmula de Lançamento</h4>
+                    <h6 style="font-family: Tahoma, Verdana, sans-serif">Por Érico Rocha</h6>
+                    <h6 style="font-family: Tahoma, Verdana, sans-serif">Lorem Ipsum is simply dummy text of the printing and industry.</h6>
+                </li>
+                <div class="col-md-12 bg-light text-right">
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-secondary">3,4 <i class="far fa-star" style='font-size:15px'></i></button>
+                        <br/>
+                        <h4 style="font-family: Tahoma, Verdana, sans-serif">R$2500</h4>
+                        <br/>
+                        <button type="button" class="btn btn-light"><i class="far fa-heart" style='font-size:24px'></i> Amei</button>
+                        <br/>
+                        <button type="button" class="btn btn-secondary"><i class="fas fa-shopping-bag" style='font-size:24px'></i> Comprar</button> 
+                    </li>
+                </div>
+
+            </ul>
+        </nav>
+
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+        <div class="container">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="javascript:void(0);"><</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">4</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">5</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">6</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">7</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">8</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">9</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">10</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:void(0);">></a></li>
+            </ul>
+        </div>
+    </body>
+</html>
